@@ -1,0 +1,162 @@
+body {
+    width: 1500px;
+}
+.a {
+    display: flex;
+}
+.ab {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+}
+.abc {
+    background-color: lightblue;
+    width: 250px;
+    height: 50px;
+}
+.b {
+    margin-top: 20px;
+    display: flex;
+}
+.bb {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: lightcoral;
+}
+.bc {
+    background-color: lightblue;
+    width: 250px;
+    height: 50px;
+}
+.be {
+    display: flex;
+    justify-content: space-between;
+}
+.background {
+    color: white;
+    background-color: black;
+}
+
+.big-daddy {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+}
+.container-title {
+    margin: 0px;
+    font-size: 8px;
+    color: gray;
+    display: inline-block;
+}
+.pfp {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.title-main {
+    width: 220px;
+    justify-content: space-between;
+    display: flex;
+}
+.title  {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+.time {
+    margin: 0px;
+    font-size: 8px;
+    color: gray;
+}
+.news {
+    font-size: 9px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+.message {
+    margin-bottom: 5px;
+    font-size: 9px;
+    color: gray;
+    margin: 0;
+}
+
+
+
+
+.parent {
+    padding: 5px 5px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+    width: 300px;
+    display: inline-block;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parent-main {
+    display: inline-block;
+    width: 440px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+    display: flex;
+}
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 5px;
+    margin-top: 13px;
+}
+.usertag {
+    color: rgb(59, 59, 59);
+    font-weight: normal;
+}
+.username   {
+    margin: 12px 0px 8px 0px;
+    font-size: 15px;
+}
+.sent-message  {
+    margin: 0;
+}
+.wrapper2 {
+    border: 0.4px solid rgb(177, 177, 177);
+    margin-top: 10px;
+    align-items: center;
+    width: 354px;
+    display: flex;
+    padding-right: 25px;
+    border-radius:20px;
+}
+.video-picture {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.site   {
+    margin:0 0 7px 0;
+    color: rgb(63, 63, 63);
+    font-weight: normal;
+}
+.video-title {
+    margin: 0px;
+}

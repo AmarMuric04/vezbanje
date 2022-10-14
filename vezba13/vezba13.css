@@ -1,0 +1,46 @@
+.red-box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+}
+.green-circle {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50px;
+}
+.service  {
+    margin-top: 30px;
+    border: 0.4px solid rgb(110, 110, 110);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+.servicep {
+    font-weight: bold;
+    font-family: arial;
+    width: 350px;
+    display: block;
+
+}
+.youtube {
+    width: 365px;
+    background-color: rgb(27, 27, 27);
+    font-family: arial;
+    padding-left: 15px;
+}
+.text  {
+    width: 365px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom:0px;
+    margin-bottom: 0;
+}
+.para1 {
+    width: 347px;
+    color: grey;
+    padding-bottom:15px;
+    margin-top: 10px;
+}

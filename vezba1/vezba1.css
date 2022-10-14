@@ -1,0 +1,24 @@
+
+.para1 {
+    font-weight: bold;
+    color: red;
+    background-color: black;
+}
+.btn1 {
+    margin-right: 50px;
+}
+.imgsluske {
+    height: 140px;
+    width: 140px;
+}
+.psluske1 {
+    font-style: bold;
+    font-style:oblique
+}
+.psluske2 {
+    font-weight: 100;
+}
+.psluske3 {
+    font-style: italic;
+    font-weight: 100;
+}

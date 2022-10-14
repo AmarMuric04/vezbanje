@@ -1,0 +1,177 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.a {
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 55;
+}
+.b {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 55;
+    margin-bottom: 0;
+    text-align: left;
+}
+.pb {
+    font-style: italic;
+    color: red;
+    font-size: 35;
+    font-family: arial;
+    margin-top: 10;
+}
+.c {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 55;
+    margin-bottom: 0;
+}
+.pc {
+    color: gray;
+    font-size: 50;
+    font-family: verdana;
+    margin-top: 0;
+}
+.pc2 {
+    font-family: verdana;
+    font-size:50;
+    width: 878px;
+    margin-top: 40;
+    color: black;
+}
+.buttonc {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 40px;
+    padding-left:40px;
+    color:white;
+    background:rgb(1, 102, 1);
+    border:none;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 40;
+    cursor:pointer;
+}
+.d {
+    font-family: arial;
+    font-size: 55;
+    font-weight: bold;
+    text-align:center;
+}
+.dp {
+    font-family: arial;
+    font-size: 32;
+    text-align: center;
+}
+.anchord {
+    font-size:32;
+    text-align: center;
+    font-family: Arial;
+    position: relative; left: 45%; top: 3%;
+    text-decoration: none;
+    color: rgb(6, 76, 156);
+}
+.fp, .fh3, .fh2, .fp2, .buttonf {
+    font-family: arial;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.fp {
+    color: rgb(202, 133, 4);
+    font-size: 23;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100;
+}
+.fh3 {
+    font-size: 32;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10;
+}
+.fh2 {
+    font-size: 55;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10;
+}
+.fp2 {
+    color: rgb(95, 95, 95);
+    text-align: center;
+    font-size: 23;
+    margin-top: 20;
+}
+.buttonf {
+    color: white;
+    background-color: rgb(0, 81, 255);
+    border: none;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 26px;
+    padding-right: 26px;
+    font-size: 27;
+    text-align: center;
+    margin-left: 900;
+    margin-top: 20;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.buttonf:hover {
+    opacity: 0.7;
+}
+.gp, .gps, .ep, .eps, .ip, .ips {
+    text-align: left;
+    font-family:arial;
+}
+.gp {
+    font-size: 60;
+    margin-bottom: 15;
+}
+.gps {
+    font-size: 30;
+    color: rgb(82, 82, 82);
+}
+.eps {
+    color: green;
+    font-size: 30;
+    margin-top: 15;
+}
+.ip {
+    color: grey;
+    font-size: 30;
+    margin-top: 15;
+}
+.ips {
+    color: red;
+    font-size: 30;
+}
+.jp,.jps,.jp2,.js,.j {
+    font-family: arial;
+}
+.j {
+    font-weight: bold;
+    font-size:30;
+    margin-top: 70;
+    margin-bottom: 20;
+}
+.js {
+    color: gray;
+    font-weight: normal;
+}
+.jp {
+    font-size: 27;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 850;
+}
+.jp2 {
+    font-size: 27;
+    margin-top: 30;
+}
+.jps {
+    color: rgb(64, 135, 168);
+    text-decoration: none;
+}

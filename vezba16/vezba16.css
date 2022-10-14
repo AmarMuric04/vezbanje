@@ -1,0 +1,179 @@
+body {
+    width: 100%;
+    height: 5000px;
+}
+.main {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+.picture {
+    object-fit: cover;
+    vertical-align: middle;
+   height: 50px;
+   width: 50px;
+   border-radius: 25px;
+   margin: 5px;
+}
+.info {
+    vertical-align: middle;
+    margin: 0;
+    display: inline-block;
+}
+.name {
+    font-weight: bold;
+}
+.thing {
+    color: grey;
+}
+.popularity {
+    color: grey;
+    font-size: 13px;
+}
+p {
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+.father {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    border: 5px solid black;
+    transition: all 1s;
+}
+.father:hover {
+    padding: 40px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.main2 {
+    width: 1200px;
+}
+.picture2 {
+    object-fit: cover;
+    margin-right: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    border-radius: 85px;
+}
+.info2 {
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.name2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.thing2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: grey;
+}
+.popularity2 {
+    font-size: 40px;
+    color: grey;
+}
+.flw-btn {
+    display: inline-block;
+}
+.btn {
+    cursor:pointer;
+    vertical-align: middle;
+    background-color:rgb(29,155,240);
+    border:none;
+    padding: 20 30 20 30;
+    color: white;
+    font-weight: bold;
+    margin-left: 300px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+.btn:active {
+    opacity: 0.4;
+}
+.main3 {
+    font-family: arial;
+    margin-left: 100px;
+    margin-top:200px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: rgb(238, 238, 238);
+    margin: 10px 20px;
+    width: 300px;
+    height: 450;
+    border: 1.4px solid rgb(161, 161, 161);
+    transition: all 0.3s;
+}
+.card:hover {
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.posted-picture {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.info3 {
+    margin: 10px;
+}
+.name3 {
+    margin: 0px;
+    font-weight: bold;
+}
+.profile-picture {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+.connector {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pfp2 {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.mutuals {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: grey;
+}
+.btn2 {
+    background-color: rgb(83, 126, 207);
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 10 20 10 20;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn2:hover {
+    opacity: 0.7;
+}
+.btn2:active {
+    opacity: 0.4;
+}
+

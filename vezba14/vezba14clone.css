@@ -1,0 +1,288 @@
+body {
+    margin:100px;
+    display: flex;
+    justify-content: center;
+}
+#daddy-div {
+    padding: 40px;
+    margin:-8px;
+    text-align: center;
+    height: 1200px;
+    width: 850px;
+    border:4px solid black;
+    object-fit: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/20/10/41/plasma-775169_1280.jpg)
+}
+.div5 {
+    border:1px solid rgb(66,66,66);
+    border-radius:25px;
+    width: 280px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+}
+.avatar-zeus {
+    margin-top:20px;
+    display: block;
+    text-align: left;
+    margin-right: auto;
+    margin-left:auto;
+    border: 0.4px solid rgb(255, 230, 0);
+    font-family: arial;
+    width: 140px;
+    padding-bottom: 6px;
+    padding-left:6px;
+    position:relative;
+    left: -5px;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    background-color: rgb(235, 214, 28);
+    border-radius: 10px;
+    margin-bottom:20px;
+    height: 287.386px;  
+    transition: all 0.2s ease;
+}
+.avatar-zeus:hover {
+    padding-left: 12px;
+    padding-right: 6px;
+    padding-bottom:12px;
+    padding-top:6px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.addfriend-zeus:hover {
+    background-color: rgb(77, 77, 77);
+    opacity: 0.7;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    content:"Unable to Add";
+}
+.profile-picture {
+    vertical-align: middle;
+    height: 34px;
+    width: 34px;
+    object-fit: cover;
+    border-radius: 17px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.wrapper {
+    margin-bottom: 0;
+}
+.addfriend-zeus {
+display: inline-block;
+background-color: rgb(29,155,240);
+text-decoration: none;
+width: 100px;
+height: 36px;
+margin: 24px 0;
+ border-radius: 10px;
+ overflow: hidden;
+box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.2);
+position: relative;
+top: -30px;
+}
+.addfriend-zeus:after,
+.addfriend-zeus:before {
+content: "Add Friend";
+position: absolute;
+text-align: center;
+width: 100%;
+color: #fff;
+font-weight: bold;
+line-height: 2.2    ;
+top: 0;
+}
+.addfriend-zeus:hover:after {
+    top: -36px;
+}
+.addfriend-zeus:before {
+content: "Unable to Add";
+top: 36px;
+font-size: 13px;
+line-height: 2.8;
+}
+.addfriend-zeus:hover:before {
+    cursor:not-allowed;
+        top: 0px;
+    }
+.tweet-bar {
+    vertical-align: middle;
+    border:none;
+    border-radius: 20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+    font-size: 10px;
+    width: 170px;
+}
+.tweet-button {
+    font-family: arial;
+    vertical-align: middle;
+    color: white;
+    background-color: rgb(29,155,240);
+    border: none;
+    border-radius: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 12px;
+    padding-top:4px;
+    padding-bottom:4px;
+    font-weight: bold;
+}
+.tweet-bar {
+    border: none;
+}
+.avatar {
+    margin-bottom: 20px;
+    border: 0.4px solid rgb(151, 151, 151);
+    display: inline-block;
+    font-family: arial;
+    width: 140px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 0px;
+    transition: all 0.2s ease;
+    color: white;
+}
+.avatar5 {
+    margin-bottom: 20px;
+    border: 0.4px solid rgb(151, 151, 151);
+    display: inline-block;
+    font-family: arial;
+    width: 140px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 0px;
+    transition: all 0.2s ease;
+    color: white;
+    }
+.avatar5:hover {
+    margin-bottom: -10px;
+    width: 140px;
+    margin-right: 5px;
+    margin-left: -5px;
+    padding-bottom: 11px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: -5px;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    }
+.avatar:hover {
+    margin-bottom: -10px;
+    width: 140px;
+    margin-right: 5px;
+    margin-left: -5px;
+    padding-bottom: 11px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: -5px;
+    color:black;
+    background-color: rgb(255, 255, 255);
+}
+.img-avatar1 {
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    width: 134px;
+    height: 180px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.username {
+    width: auto;
+    font-size: 15px;
+    text-align: left;
+}
+.mutual-friend {
+    text-align: left;
+    color: gray;
+    font-size: 12px;
+}
+.avatar-zeus:hover {
+    padding-left: 12px;
+    padding-right: 6px;
+    padding-bottom:12px;
+    padding-top:6px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.addfriend-zeus:hover {
+    background-color: rgb(77, 77, 77);
+    opacity: 0.7;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    content:"Unable to Add";
+}
+.profile-picture {
+    vertical-align: middle;
+    height: 34px;
+    width: 34px;
+    object-fit: cover;
+    border-radius: 17px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.wrapper {
+    margin-bottom: 0;
+}
+.addfriend {
+    padding-left: 10px;
+padding-right: 10px;
+padding-top: 7px;
+padding-bottom: 7px;
+display: inline-block;
+background-color: rgb(29,155,240);
+text-decoration: none;
+border-radius: 10px;
+box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.2);
+cursor: pointer;
+}
+.addfriend:hover {
+    opacity: 0.6;
+}
+.addfriend:after {
+content: "Add Friend";
+color: white;
+font-weight: bold;
+top: 0;
+}
+.text-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    width: 800px;
+    border-radius: 20px;
+    height: 200px;
+    color: white;
+    transition: all 0.2s;
+}
+.title {
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text {
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-box:hover {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

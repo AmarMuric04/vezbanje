@@ -1,0 +1,107 @@
+.subscribe {
+    height: 35px;
+    width: 105px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.subscribe:hover {
+    opacity:0.75;
+}
+.subscribe:active {
+    opacity:0.55;
+}
+.join {
+    margin-left: 10px;
+    height: 35px;
+    width: 65px;
+    border-color:rgb(41,118,211);
+    color: rgb(41,118,211);
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    transition: background-color 0.15s,
+     color 0.3s; 
+     vertical-align: top;
+     margin-top: 10px;
+}
+.join:hover {
+    color:white;
+    background-color: rgb(41,118,211);
+}
+.join:active {
+    opacity:0.68;
+}
+.tweet {
+    background-color: rgb(0, 139, 253);
+    color: white;
+    border: none;
+    border-radius: 17.5px;
+    height: 35px;
+    width: 75px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-left: 10px;
+    font-size: 15px;
+    transition:box-shadow 0.15s, opacity 0.25s;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.tweet:active {
+    opacity: 0.6;
+}
+.subscribe1 {
+    background-color: rgb(200, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:16px;
+    padding-right:16px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-top: 10px;
+    vertical-align: top;
+}
+.subscribe1:hover {
+    opacity:0.75;
+}
+.subscribe1:active {
+    opacity:0.55;
+}
+.join1 {
+    margin-left:10px;
+    border-color:rgb(41,118,211);
+    color: rgb(41,118,211);
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    vertical-align: top;
+    transition: background-color 0.15s,
+     color 0.3s;
+     padding-top:9px;
+     padding-bottom: 9px;;
+     padding-left: 16px;
+     padding-right:16px;
+     margin-top: 10px;
+}
+.join1:hover {
+    color:white;
+    background-color: rgb(41,118,211);
+}
+.join1:active {
+    opacity:0.68;
+}
