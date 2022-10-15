@@ -92,12 +92,15 @@ li,a,button {
     border-color: red;
 }
 .bottom-header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 2000px;
     height: 74px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    position: relative;
-    top: 160.4px;
     background-color: rgb(59, 59, 59);
 }
 .logo2 {

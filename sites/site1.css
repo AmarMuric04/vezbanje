@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    background-image: url(https://media.istockphoto.com/photos/aerial-view-of-sandy-beach-and-ocean-with-waves-picture-id825372364?k=20&m=825372364&s=170667a&w=0&h=_mP66jcgJdGaCpRt1_04ysmsY2Oj7v_JwQupIiMjM7I=);
+    background-size:cover;
+    font-family:'Roboto', sans-serif;
+}
+header {
+    background-color: rgba(188,188,188,0.5);
+    align-items: top;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+    padding: 0px 100px;
+    padding-left: 20px;
+    position: relative;
+}
+.logo {
+    position: relative;
+    bottom:15px;
+    height: 70px;
+    width: 200px;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display:inline-block;
+    margin: -2;
+    margin-top: -5px;
+}
+.nav-links a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease 0s;
+}
+.nav-links a:hover {
+    background-color: rgba(188,188,188,0.8);
+    border-bottom: 4px solid white;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+.title  {
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    top: 100px;
+    font-size: 75px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title h1,h2,h3 {
+    margin: 0px;
+}
+.title h3 {
+    color: rgb(214, 214, 214);
+}
+.title h2 {
+    color: gray;
+}
+.btn     {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+}
+button {
+    font-family: 'Orbitron', sans-serif;
+    background-color:rgba(177,177,177,0.5);
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid gray;
+    cursor: pointer;
+    color: white;
+    transform: all 0.3 ease 0s;
+}
+button:hover {
+    background-color: rgba(177,177,177,0.7);
+}
