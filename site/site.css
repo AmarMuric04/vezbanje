@@ -2,7 +2,7 @@ body {
     max-width: 2000;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    background-image: url(https://images5.alphacoders.com/110/thumb-1920-1104367.jpg);
+    background-image: url(https://marmotamaps.com/de/fx/wallpaper/download/faszinationen/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg);
     background-size: cover; 
 }   
 .header {
@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     padding: 20px 20px 20px 120px;
     background-color: rgb(43, 43, 43);
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(0, 204, 255);
 }
 .nav-links {
     list-style:none;
@@ -32,17 +32,17 @@ li,a,button {
     transition: all 0.3s ease 0s;
 }
 .nav-links a:hover {
-    background-color: red;
+    background-color:rgb(0, 162, 255);
     padding:10px 10px;
     margin:-10px;
 }
+.wrapper-logo {
+    display: flex;
+    align-items: center;
+}
 .logo {
-    margin-top: -20px;
-    background-color: rgb(71, 71, 71);
-    height: 300px;
-    width:250px; 
-    border: 2px solid red;
-    border-top: none;
+    height: 75px;
+    width:75px; 
 }
 .btns {
     display: flex;
@@ -50,7 +50,7 @@ li,a,button {
 }
 .btn {
     padding:10px 25px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 162, 255);
     margin: 0px 10px;
     border: none;
     border-radius: 5px;
@@ -89,30 +89,32 @@ li,a,button {
     background-color: rgba(30,30,30,0.7);
 }
 .button:active {
-    border-color: red;
+    border-color: rgb(0, 162, 255);
 }
 .bottom-header {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 2000px;
-    height: 74px;
+    padding: 10px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    background-color: rgb(59, 59, 59);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(59, 59, 59,0.5);
+    max-width: 2000px;
+}
+.wrapper-logo2 {
+    display: flex;
+    align-items: center;
 }
 .logo2 {
-    position: relative;
-    bottom: 10px;
-    width: 250px;
-    height: 50px;
+    display: flex;
+    width:100px;
     cursor: pointer;
 }
 .maker {
     display: flex;
-    align-items: center;
+    align-items: end;
     margin: 0px;
 }
 .maker p,h4{
@@ -124,18 +126,19 @@ li,a,button {
     transition: color  0.3s ease 0s;
 }
 .maker a:hover {
-    color: red;
+    color: rgb(0, 162, 255);
 }
 .nav-list2 {
     text-decoration: underline;
     display: flex;
     list-style: none;
+    margin: 0px;
 }
 .nav-list2 a {
     transition: color 0.3s ease 0s;
 }
 .nav-list2 a:hover {
-    color: red;
+    color: rgb(0, 162, 255);
 }
 .nav-list2 li {
     display: inline-block;
@@ -143,4 +146,8 @@ li,a,button {
 }
 .nav-list2 li:nth-child(4) {
     padding: 0px 20px 0px 10px;
+}
+footer nav {
+    display: flex;
+    align-items: end;
 }
